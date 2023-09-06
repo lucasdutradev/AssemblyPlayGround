@@ -1,5 +1,5 @@
 section .data
-    hi db 'Hello World!', 0xA
+    hi db 'Hello World!', 0xA , 0xD
     length equ $- hi
 
 section .text
